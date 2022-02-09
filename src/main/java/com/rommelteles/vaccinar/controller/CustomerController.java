@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.rommelteles.vaccinar.model.Customer;
-import com.rommelteles.vaccinar.service.ICustomerService;
+import com.rommelteles.vaccinar.service.customer.ICustomerService;
 
 @RestController
 @RequestMapping("/api/v1")
